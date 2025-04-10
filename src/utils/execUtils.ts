@@ -29,5 +29,6 @@ export const robotExecCommands = async (commands: string[]) => {
   await newTab()
   for (const command of commands) {
     await runCommand(command)
+    await new Promise(resolve => setTimeout(resolve, 1000))
   }
 }

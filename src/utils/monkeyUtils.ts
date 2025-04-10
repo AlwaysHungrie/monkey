@@ -4,7 +4,7 @@ export const newTab = async () => {
   // cmd + t
   Robot.keyTap('t', 'command')
   // wait for the new tab to open
-  await new Promise(resolve => setTimeout(resolve, 1200))
+  await new Promise(resolve => setTimeout(resolve, 4200))
 
   // TODO: mouse needs to be moved in order for focus to be set
 }

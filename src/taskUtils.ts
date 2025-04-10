@@ -17,7 +17,7 @@ export const runCommand = async (userCommand: string, variables: string[]) => {
   }
 
   const variablesMap = new Map<string, string>()
-  variables.forEach(variable => {
+  variables?.forEach(variable => {
     const [key, value] = variable.split('=')
     variablesMap.set(key, value)
   })
