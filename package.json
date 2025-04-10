@@ -1,7 +1,7 @@
 {
-  "name": "monkey",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@always_hungrie/monkey",
+  "version": ".0.0",
+  "description": "A CLI tool to automate your terminal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
