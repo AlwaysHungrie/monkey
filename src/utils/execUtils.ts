@@ -24,3 +24,10 @@ export const robotExecCommand = async (command: string) => {
 
   // TODO: figure out how to get the output of the command
 }
+
+export const robotExecCommands = async (commands: string[]) => {
+  await newTab()
+  for (const command of commands) {
+    await runCommand(command)
+  }
+}
