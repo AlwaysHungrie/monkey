@@ -1,6 +1,6 @@
 # Monkey
 
-Automate your terminal
+Intelligent terminal automation
 
 ## Usage
 
